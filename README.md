@@ -1,6 +1,6 @@
 # python-projects
 
-A collection of Python projects written while learning to program. Started small, building toward scripting, automation, and security tooling over time.
+A collection of Python projects written while learning to programme. Started small, building toward scripting, automation, and infrastructure tooling over time.
 
 ## Projects
 
