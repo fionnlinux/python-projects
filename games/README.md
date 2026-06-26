@@ -1,17 +1,9 @@
 # Games & Learning Exercises
 
-This directory contains early Python projects created specifically to master core programming concepts. These are not intended as production software but as proof of conceptual understanding during my initial learning phase.
+Small Python projects built to get comfortable with the language — working through core concepts by actually writing something rather than just reading about it. The focus here is on logic, control flow, and input handling without relying on external frameworks.
 
-## Philosophy
+## Projects
 
-The goal of these projects was to move beyond theory and implement logic manually without relying on external frameworks. They focus on:
-
-- **Control Flow:** Mastering loops, conditionals, and error handling.
-- **Data Structures:** Working with lists, dictionaries, and sets.
-- **User Interaction:** Building responsive Command Line Interfaces (CLI).
-
-## Included Projects
-
-| Project | Key Concepts Practiced | Link |
+| Project | Concepts Practised | Link |
 | :--- | :--- | :--- |
-| **Number Guessing Game** | `random`, `while` loops, input sanitization, simple state management | [View Code](./number-guessing-game/) |
+| **Number Guessing Game** | `random`, `while` loops, input validation, basic state management | [View Code](./number-guessing-game/) |

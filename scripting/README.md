@@ -1,38 +1,27 @@
-# Professional Scripting & Automation Tools
+# Scripting & Automation
 
-This directory will house practical Python scripts for system administration, data processing, API integration, and automation tasks.
+Python scripts for system administration, API integration, data processing, and automation tasks. Building this out alongside my Linux and cloud work.
 
-## Current Status
+## Standards
 
-*(Work in progress)* — This directory is currently being prepared as I transition from learning exercises to production-oriented code. My first professional scripts will be added here once they meet the following standards:
+Scripts added here will:
 
-- **Clear Purpose:** Solves a real problem or automates a specific task
-- **Error Handling:** Graceful failures with meaningful messages
-- **Documentation:** Inline comments and usage instructions
-- **Reusability:** Designed to be adapted or extended for similar tasks
+- Solve a real problem or automate a specific task
+- Handle errors gracefully with meaningful output
+- Include inline comments and usage instructions
+- Be written to be adapted or extended for similar tasks
 
-## Goals
+## Planned Work
 
-| Goal | Description |
+| Area | Description |
 | :--- | :--- |
 | **Automation** | Replace repetitive manual tasks with reliable scripts |
-| **Infrastructure** | Build tools for system monitoring, logging, and management |
-| **Integration** | Connect APIs and external services securely |
-| **Data Processing** | Handle files, logs, and datasets efficiently |
-
-## Coming Soon
-
-As I develop practical skills through hands-on work, scripts will be added to this directory. Check back for updates on:
-
-- File organization utilities
-- Log parsing and analysis tools
-- API clients for common services
-- System health checkers
-
-> **Note:** For my current learning projects, see the [`games/`](../games/) directory. These scripting tools represent my next phase of growth toward professional development work.
+| **Infrastructure** | System monitoring, logging, and administration tools |
+| **API Integration** | Starting with the NBN Atlas API for a wildlife records project |
+| **Data Processing** | File handling, log parsing, and dataset utilities |
 
 ## Environment
 
 - **Language:** Python 3
 - **Editor:** Vim
-- **OS:** Linux (primarily)
+- **OS:** Fedora KDE (daily driver), AlmaLinux (scripting and automation)

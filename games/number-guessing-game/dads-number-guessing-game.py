@@ -1,14 +1,24 @@
-# Dad's Number Guessing Game
-# Author: fionnlinux
-# Date: May 2026
-# Description: A number guessing game written as a first Python project.
-#              Players guess a random number between 1 and 100.
-#              Includes input validation and a performance rating.
-#              Work in progress — will be extended over time.
+#!/usr/bin/env python3
+"""
+dads-number-guessing-game.py
+A CLI number guessing game written as a first Python project.
+
+Players guess a random number between 1 and 100.
+Includes input validation and a performance rating.
+
+Usage:
+    python3 dads-number-guessing-game.py
+
+Requirements: Python 3 (standard library only)
+
+Author: fionnlinux
+Date: May 2026
+"""
 
 import random
 
-# ── Functions ─────────────────────────────────────────────────
+
+# Functions
 
 def performance_message(attempts):
     """Return a performance message based on number of attempts."""
@@ -19,14 +29,16 @@ def performance_message(attempts):
     else:
         return "Keep practising — you'll get faster!"
 
-# ── Setup ──────────────────────────────────────────────────────
+
+# Setup
 
 # Ask for name once outside the game loop so it
 # doesn't ask again on each playthrough
 player_name = input("Before we begin, please tell us your name: ")
 print("Welcome to Dad's amazing number guessing game, " + player_name + "!")
 
-# ── Main game loop ─────────────────────────────────────────────
+
+# Main game loop
 
 playing = True
 
@@ -58,7 +70,7 @@ while playing:
         elif guess > secret:
             print("Too high!")
 
-    # ── Play again ─────────────────────────────────────────────
+    # Play again
 
     # Keep asking until a valid yes or no answer is given
     while True:
